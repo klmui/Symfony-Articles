@@ -11,7 +11,7 @@ Use an Apache server to run this application in your browser.
 2. Type "composer create-project symfony/skeleton symphart" in the terminal.
 Make sure you have Composer installed.
 
-3. Go to localhost/symfart/public
+3. Go to localhost/symphart/public
 
 # Quick Start:
 
