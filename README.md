@@ -31,3 +31,32 @@ npm run build
 
 ## Run symfony server 
 symfony server:start
+
+# Notes on installing packages (for my own reference)
+
+composer require annotations
+
+composer require twig
+
+composer require doctrine maker
+
+# The DB
+
+## Create the DB
+
+php bin/console doctrine:database:create
+
+## Create an entity for articles
+
+php bin/console make:entity Article
+
+## Create/Edit model
+
+Edit Articles.php in entities folder
+
+When you're done, type "php bin/console doctrine:migrations:diff"
+
+Run migration: "php bin/console doctrine:migrations:migrate"
+
+Viewing all articles in console:
+"php bin/console doctrine:query:sql 'SELECT * FROM article'"
