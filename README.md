@@ -40,6 +40,8 @@ composer require twig
 
 composer require doctrine maker
 
+composer require form
+
 # The DB
 
 ## Create the DB
